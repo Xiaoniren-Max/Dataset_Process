@@ -19,4 +19,4 @@ def compareFile(filea, fileb):
         print('服务返回字段都相同')
 
 
-compareFile(r'/Users/vog/Desktop/Temp/data/NYTJ/raw_test.json', r'/Users/vog/Desktop/Temp/data/NYTN/nyt_test.json')
+compareFile(r'/your_file_1.json', r'/your_file_2.json')

@@ -1,7 +1,7 @@
 import json
 import re
 
-fo = open("/Users/vog/DataSets/SemEval/Data/TEST_FILE_FULL_output.json", 'w', encoding='utf-8')
+fo = open("/your_file.json", 'w', encoding='utf-8')
 
 test_dict = {'tokens': 'none', 'entities': [], 'relations': [], 'orig_id': -1}
 
@@ -12,7 +12,7 @@ def match_tag(tokens, tag):
             return tokens.index(item)
 
 
-with open("/Users/vog/DataSets/SemEval/Data/TEST_FILE_FULL.TXT") as file:
+with open("/your_file.TXT") as file:
     lines = file.readlines()
     for l in lines:
 

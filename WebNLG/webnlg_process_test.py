@@ -1,8 +1,8 @@
 import json
 from nltk import word_tokenize
 
-fi = open("/Users/vog/DataSets/TEST/webnlg_test.json", encoding='utf-8')
-fo = open("/Users/vog/DataSets/TEST/webnlg_test_output.json", 'w', encoding='utf-8')
+fi = open("/your_file.json", encoding='utf-8')
+fo = open("/your_file.json", 'w', encoding='utf-8')
 
 test_dict = {'tokens': 'null', 'entities': [], 'relations': [], 'id': -1}
 temp_dict = {'entities': []}

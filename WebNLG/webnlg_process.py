@@ -1,7 +1,7 @@
 import json
 
-fi = open("/Users/vog/DataSets/WebNLG/new_train.json", encoding='utf-8')
-fo = open("/Users/vog/DataSets/WebNLG/new_train_output.json", 'w', encoding='utf-8')
+fi = open("/your_file.json", encoding='utf-8')
+fo = open("/your_file.json", 'w', encoding='utf-8')
 
 test_dict = {'tokens': 'none', 'entities': [], 'relations': [], 'orig_id': -1}
 temp_dict = {'entities': []}

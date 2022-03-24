@@ -1,9 +1,9 @@
 import json
 
-fi_1 = open("/Users/vog/DataSets/SemEval/Data/TEST_FILE_FULL_output.json", encoding='utf-8')
-fi_2 = open("/Users/vog/DataSets/SemEval/Data/TRAIN_FILE_output.json", encoding='utf-8')
-# fi_3 = open("/Users/vog/DataSets/SemEval/Data/TEST_FILE_FULL_output.json", encoding='utf-8')
-fo = open("/Users/vog/DataSets/SemEval/Data/relation_types.json", 'w', encoding='utf-8')
+fi_1 = open("/your_file_1.jsonn", encoding='utf-8')
+fi_2 = open("/your_file_2.json", encoding='utf-8')
+# fi_3 = open("/your_file_3.json", encoding='utf-8')
+fo = open("/your_file.json", 'w', encoding='utf-8')
 
 type_list = list()
 
